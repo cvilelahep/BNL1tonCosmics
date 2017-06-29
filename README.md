@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 This code compiles against the CRY cosmic ray simulation package:
 https://nuclear.llnl.gov/simulation/main.html
 
@@ -13,13 +13,13 @@ More details in the RAT-PAC documentation:
 http://rat.readthedocs.io/en/latest/generators.html#external
 
 
-#Compiling
+# Compiling
 
 1 - Set environment variable CRYHOME to point at a CRY installation.
 2 - Set up a ROOT environment.
 3 - Run 'make'.
 
-#Running
+# Running
 
 Run with:
 ./BNL1tonTriggeredCosmics <setup file name> <N files> <N events per file> <Output file base name>
