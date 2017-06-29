@@ -1,3 +1,12 @@
+/*
+  This program compiles against the CRY cosmic ray generator 
+  (https://nuclear.llnl.gov/simulation/main.html). It generates
+  cosmic muons and filters them according to whether or not they
+  pass through the scintillator paddles placed above the BNL
+  1 ton tank.
+*/
+  
+
 #include "CRYGenerator.h"
 #include "CRYSetup.h"
 
